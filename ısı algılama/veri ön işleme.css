@@ -1,0 +1,15 @@
+# Görüntüleri ön işleme işlemi
+preprocessed_images = []
+
+def preprocess_image(image):
+    # Gürültüyü temizleme, boyutlandırma, kontrast ayarı vb. işlemleri uygula
+    preprocessed_image = apply_preprocessing(image)
+    preprocessed_images.append(preprocessed_image)
+
+# Veri kümesindeki her görüntü için ön işleme uygula
+for image in thermal_images:
+    preprocess_image(image)
+
+# Ön işlenmiş görüntüleri kaydet
+for i, image in enumerate(preprocessed_images):
+    save_image(image, f"preprocessed_image_{i}.png")

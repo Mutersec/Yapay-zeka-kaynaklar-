@@ -1,0 +1,12 @@
+#Nasıl çalıştırıcam 
+
+Gerekli kütüphaneleri yükleyin: Python'da yapay zeka modelini çalıştırmak için gerekli olan kütüphaneleri yükleyin. Örneğin, TensorFlow, Keras veya PyTorch gibi derin öğrenme kütüphanelerini kullanabilirsiniz.
+
+Veri toplama ve ön işleme: Öncelikle, ısı algılayıcıdan veya termal kameralardan termal görüntüleri toplayın. Ardından, topladığınız termal görüntüleri ön işleme adımlarından geçirin. Bu adımlar, verileri modele uygun formatta hazırlamak için gerekli olacaktır.
+
+Modeli yükleme veya oluşturma: Eğer daha önce eğitilmiş bir yapay zeka modeli kullanmak istiyorsanız, modelinizi yükleyin. Önceden eğitilmiş bir model kullanmadan önce, modeli oluşturmanız ve derin öğrenme mimarisini belirlemeniz gerekecektir.
+
+Görüntüleri modelde kullanmak için uygun hale getirin: Görüntüleri, modelin beklentilerine uygun hale getirin. Bunun için genellikle görüntü boyutunu, kanal sayısını ve veri tipini modele uygun hale getirmeniz gerekecektir.
+
+Modeli çalıştırın: Hazırlanan verileri kullanarak modeli çalıştırın ve termal görüntülerdeki ısı dağılımlarını tahmin edin. Tahminleri kullanarak istediğiniz çıktıları elde edebilirsiniz.
+
